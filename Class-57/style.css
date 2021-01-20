@@ -1,0 +1,51 @@
+body {
+    text-align: center;
+}
+
+.tim {
+    border-radius: 50%
+}
+
+#welcome {
+
+    background: linear-gradient(green 40%, red 10%);
+    z-index: 9;
+}
+
+.menu {
+    position: fixed;
+    margin-top: 0px;
+    top: 0px;
+    z-index: 10;
+    cursor: pointer;
+    background: white;
+}
+
+.links {
+    display: inline;
+    color: azure;
+    padding-left: 33px;
+    padding-right: 25px;
+    font-size: 20px;
+    font-family: cursive;
+}
+
+.links:hover {
+    font-size: 25px;
+    text-decoration: underline;
+
+}
+
+a {
+    text-decoration: none;
+    color: coral;
+    text-shadow: 2px 2px lightgreen;
+}
+
+.article:hover {
+    color: aqua;
+}
+
+hmtl {
+    scroll-behavior: smooth;
+}
